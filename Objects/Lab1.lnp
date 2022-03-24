@@ -1,0 +1,15 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+".\objects\gpio.o"
+".\objects\main.o"
+".\objects\sspi.o"
+".\objects\lcd_draw.o"
+".\objects\startup_stm32l476xx.o"
+".\objects\sysclock.o"
+".\objects\systimer.o"
+".\objects\util.o"
+".\objects\game.o"
+".\objects\i2c.o"
+--strict --scatter ".\Objects\Lab1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Lab1.map" -o .\Objects\Lab1.axf

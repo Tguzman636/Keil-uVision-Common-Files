@@ -1,0 +1,153 @@
+Dependencies for Project 'Lab1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\FinalProject\GPIO.c)(0x62302ECA)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (FinalProject\GPIO.h)(0x621D32C7)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+I (FinalProject\SysTimer.h)(0x621D2436)
+F (.\FinalProject\GPIO.h)(0x621D32C7)()
+F (.\FinalProject\main.c)(0x623038D1)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+I (FinalProject\SysClock.h)(0x621D2436)
+I (FinalProject\SysTimer.h)(0x621D2436)
+I (FinalProject\GPIO.h)(0x621D32C7)
+I (FinalProject\SSPI.h)(0x622BE75D)
+I (FinalProject\UTIL.h)(0x62215410)
+I (FinalProject\game.h)(0x62300B9F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60260474)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60260474)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x60260478)
+I (FinalProject\LCD_Draw.h)(0x622E6E03)
+I (FinalProject\I2C.h)(0x622E6E79)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x60260478)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6026047E)
+F (.\FinalProject\SSPI.c)(0x622E7CF2)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\sspi.o --omf_browse .\objects\sspi.crf --depend .\objects\sspi.d)
+I (FinalProject\SSPI.h)(0x622BE75D)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+I (FinalProject\UTIL.h)(0x62215410)
+I (FinalProject\SysTimer.h)(0x621D2436)
+I (FinalProject\GPIO.h)(0x621D32C7)
+F (.\FinalProject\SSPI.h)(0x622BE75D)()
+F (.\FinalProject\LCD_Draw.c)(0x622EA1F4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\lcd_draw.o --omf_browse .\objects\lcd_draw.crf --depend .\objects\lcd_draw.d)
+I (FinalProject\LCD_Draw.h)(0x622E6E03)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+I (FinalProject\SSPI.h)(0x622BE75D)
+I (FinalProject\UTIL.h)(0x62215410)
+I (FinalProject\SysTimer.h)(0x621D2436)
+I (FinalProject\GPIO.h)(0x621D32C7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60260474)
+F (.\FinalProject\startup_stm32l476xx.s)(0x621D2436)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32l476xx.lst --xref -o .\objects\startup_stm32l476xx.o --depend .\objects\startup_stm32l476xx.d)
+F (.\FinalProject\stm32l476xx.h)(0x621D2436)()
+F (.\FinalProject\SysClock.c)(0x6231094D)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\sysclock.o --omf_browse .\objects\sysclock.crf --depend .\objects\sysclock.d)
+I (FinalProject\SysClock.h)(0x621D2436)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+F (.\FinalProject\SysClock.h)(0x621D2436)()
+F (.\FinalProject\SysTimer.c)(0x622FB0B4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\systimer.o --omf_browse .\objects\systimer.crf --depend .\objects\systimer.d)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+I (FinalProject\SysClock.h)(0x621D2436)
+I (FinalProject\SysTimer.h)(0x621D2436)
+I (FinalProject\GPIO.h)(0x621D32C7)
+I (FinalProject\SSPI.h)(0x622BE75D)
+I (FinalProject\UTIL.h)(0x62215410)
+I (FinalProject\game.h)(0x62300B9F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60260474)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60260474)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x60260478)
+I (FinalProject\LCD_Draw.h)(0x622E6E03)
+I (FinalProject\I2C.h)(0x622E6E79)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x60260478)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6026047E)
+F (.\FinalProject\SysTimer.h)(0x621D2436)()
+F (.\FinalProject\UTIL.c)(0x62215409)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\util.o --omf_browse .\objects\util.crf --depend .\objects\util.d)
+I (FinalProject\UTIL.h)(0x62215410)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+I (FinalProject\SSPI.h)(0x622BE75D)
+I (FinalProject\GPIO.h)(0x621D32C7)
+I (FinalProject\SysTimer.h)(0x621D2436)
+F (.\FinalProject\UTIL.h)(0x62215410)()
+F (.\FinalProject\LCD_Draw.h)(0x622E6E03)()
+F (.\FinalProject\game.c)(0x62303DEF)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\game.o --omf_browse .\objects\game.crf --depend .\objects\game.d)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+I (FinalProject\SysClock.h)(0x621D2436)
+I (FinalProject\SysTimer.h)(0x621D2436)
+I (FinalProject\GPIO.h)(0x621D32C7)
+I (FinalProject\SSPI.h)(0x622BE75D)
+I (FinalProject\UTIL.h)(0x62215410)
+I (FinalProject\LCD_Draw.h)(0x622E6E03)
+I (FinalProject\I2C.h)(0x622E6E79)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x60260478)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6026047E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60260474)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60260474)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x60260478)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60260478)
+I (FinalProject\game.h)(0x62300B9F)
+F (.\FinalProject\I2C.c)(0x622BE337)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\FinalProject\compat -I .\FinalProject\Config -I .\FinalProject\Core\Inc -I .\FinalProject\Core\Src -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -I .\FinalProject\Drivers\STM32L4xx_HAL_Driver\Src -I .\FinalProject\Drivers\CMSIS -I .\FinalProject\Drivers\BSP\STM32L476G-Discovery -I .\FinalProject\EWARM -I .\FinalProject\third -I .\FinalProject\Drivers\BSP\Components\Common -I .\FinalProject\Drivers\BSP\Components\cs43l22 -I .\FinalProject\Drivers\BSP\Components\hx8347g -I .\FinalProject\Drivers\BSP\Components\l3gd20 -I .\FinalProject\Drivers\BSP\Components\lsm303c -I .\FinalProject\Drivers\BSP\Components\mfxstm32l152 -I .\FinalProject\Drivers\BSP\Components\n25q128a -I .\FinalProject\Drivers\BSP\Components\n25q256a -I .\FinalProject\Drivers\BSP\Components\st7735 -I .\FinalProject\Drivers\BSP\Components\stmpe811 -I .\FinalProject\Drivers\BSP\Components\stmpe1600 -I .\FinalProject\Drivers\BSP\Components\wm8994-I.\RTE\_Target_1-IC:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (FinalProject\I2C.h)(0x622E6E79)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x60260478)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6026047E)
+I (FinalProject\stm32l476xx.h)(0x621D2436)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4C9E2)
+I (C:\Users\guzma\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60F05458)
+F (.\FinalProject\I2C.h)(0x622E6E79)()
+F (.\FinalProject\game.h)(0x62300B9F)()
